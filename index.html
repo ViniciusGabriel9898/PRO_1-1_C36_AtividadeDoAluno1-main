@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Speed Racer</title>
+  <!-- Lib -->
+  <script src="./lib/p5.min.js"></script>
+  <script src="./lib/p5.dom.min.js"></script>
+  <script src="./lib/p5.sound.min.js"></script>
+  <script src="./lib/p5.play.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="./js/Game.js"></script>
+  <script src="./js/Form.js"></script>
+  <script src="./js/Player.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+  <!-- Firebase SDK CODE ADD BELOW -->
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyCRZ4tJiWFkuFFGlKMEAdokItrvZQXEb34",
+      authDomain: "multiplayer-cars-a87d1.firebaseapp.com",
+      databaseURL: "https://multiplayer-cars-a87d1-default-rtdb.firebaseio.com",
+      projectId: "multiplayer-cars-a87d1",
+      storageBucket: "multiplayer-cars-a87d1.appspot.com",
+      messagingSenderId: "21634670072",
+      appId: "1:21634670072:web:612a0f707920730a498a0d"
+    };
+
+    firebase.initializeApp(firebaseConfig)
+
+  </script>
+
+
+</head>
+
+<body>
+
+  <script src="./sketch.js"></script>
+</body>
+
+</html>
